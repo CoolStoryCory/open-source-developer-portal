@@ -1,0 +1,25 @@
+<section class="steps-nav" {% unless page.url contains '/guides/me-to-me' %}style="display:none"{% endunless %}>
+    <h6>Follow the steps</h6>
+    <ol>
+        <li>
+            <a href="/guides/me-to-me" {% if page.guide.step == 'overview' %}class="active"{% endif %}>Overview: Me-to-Me</a>
+            <div class="dot"></div>
+        </li>
+        <li>
+            <a href="/guides/me-to-me/onboarding.html" {% if page.guide.step == '1' %}class="active"{% endif %}>Customer onboarding</a>
+            <div class="dot"></div>
+        </li>
+        <li>
+            <a href="/guides/me-to-me/add-funding-source.html" {% if page.guide.step == '2' %}class="active"{% endif %}>Add funding source</a>
+            <div class="dot"></div>
+        </li>
+       <li>
+            <a href="/guides/me-to-me/fetch-funding-source.html" {% if page.guide.step == '3' %}class="active"{% endif %}>Retrieve funding sources</a>
+            <div class="dot"></div>
+        </li>
+        <li>
+            <a href="/guides/me-to-me/create-transfer.html" {% if page.guide.step == '4' %}class="active"{% endif %}>Create a transfer</a>
+            <div class="dot"></div>
+        </li>
+    </ol>
+</section>

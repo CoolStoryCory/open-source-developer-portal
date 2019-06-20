@@ -33,7 +33,10 @@
                 <a href="/guides/receive-money/">Receive money from your users</a>
             {% endunless %}
             {% unless page.url contains '/guides/transfer-money-between-users/' %}
-                <a href="/guides/transfer-money-between-users/">Transfer money between users</a>
+                <a href="/guides/transfer-money-between-users/">Transfer money between two users</a>
+            {% endunless %}
+            {% unless page.url contains '/guides/me-to-me/' %}
+                <a href="/guides/me-to-me/">Transfer money within a single user</a>
             {% endunless %}
             {% unless page.url contains '/guides/auth/' %}
                 <a href="/guides/auth/">Authorization</a>
@@ -47,6 +50,7 @@
     {% include side-nav/guide-send-money.html %}
     {% include side-nav/guide-receive-money.html %}
     {% include side-nav/guide-transfer-money-between-users.html %}
+    {% include side-nav/guide-me-to-me.html %}
     {% include side-nav/guide-auth.html %}
     {% include side-nav/guide-webhooks.html %}
 </nav>
