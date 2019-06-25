@@ -4,7 +4,7 @@ section: guides
 type: guide
 guide:
     name: me-to-me
-    step: ‘2’
+    step: '2'
 title:  Adding a funding source for a Customer with the Dwolla API
 description: This guide covers the key points of creating a funding source for your customers by utilizing the Dwolla API.
 ---

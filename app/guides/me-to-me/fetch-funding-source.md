@@ -4,7 +4,7 @@ section: guides
 type: guide
 guide:
     name: me-to-me
-    step: ‘3’
+    step: '3'
 title:  Retrieving a funding source for a Customer with the Dwolla API
 description: This step in the guide covers retrieving the available funding sources added by your customers by utilizing the Dwolla API.
 ---

@@ -1,10 +1,10 @@
 ---
 layout: twoColumn
 section: guides
-type: guide
 guide:
     name: me-to-me
-    step: ‘1’
+    step: '1'
+type: guide
 title:  Onboarding a customer with Dwolla's API
 description: Choose and create the Customer type for the me-to-me funds flow.
 ---

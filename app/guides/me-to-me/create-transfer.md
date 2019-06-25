@@ -4,7 +4,7 @@ section: guides
 type: guide
 guide:
     name: me-to-me
-    step: ‘4’
+    step: '4'
 title:  Creating an ACH transfer
 description: Create a transfer by specifying your Customer's bank funding source ID as the source and your Customer’s balance funding source ID as the destination.
 ---
